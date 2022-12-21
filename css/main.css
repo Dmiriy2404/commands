@@ -1,0 +1,192 @@
+@charset "UTF-8";
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding: 0 16px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+.comments_wrapper {
+  max-width: 100%;
+}
+
+.reviews__comments {
+  background-color: #84A178;
+  padding: 35px 39px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.58;
+  text-align: center;
+  color: #FCFCFC;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .reviews__comments {
+    padding: 28px 80px 29px 80px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.85;
+  }
+}
+@media (min-width: 1200px) {
+  .reviews__comments {
+    padding: 43px 109px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+  }
+}
+
+.reviews__name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.85;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #131313;
+}
+@media (min-width: 768px) {
+  .reviews__name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+  }
+}
+
+.photo {
+  border-radius: 100%;
+}
+
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+.slider {
+  position: relative;
+  min-width: 0;
+}
+
+.slider .slick-arrow {
+  display: none;
+}
+
+.slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #84A178;
+}
+
+.slider .slick-dots button {
+  margin: 0 9px;
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 100%;
+}/*# sourceMappingURL=main.css.map */
